@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        h2{
+            text-align: center;
+        }
+        .button{
+            background-color: #4CAF50;
+            outline: none;
+            color: white;
+            padding: 10px 32px;
+            margin: 4px 2px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>Application form</h2>
+    <form action="">
+        <label for="fname" >Ad:</label><br>
+        <input type="text"  id="fname" name="fname"><br>
+        <label for="lname" >Soyad:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="pwd" >Şifrə:</label><br>
+        <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+        
+        
+        <p>Cinsinizi seçin:</p>
+        <input type="radio" id="men" name="slc gen" value="K">
+        <label for="men">K</label>
+        <input type="radio" id="women" name="slc gen" value="Q">
+        <label for="women">Q</label>
+        
+        <p>Bitirdiyiniz təhsil dərəcələrini seçin:</p>
+        <input type="checkbox" id="degree1" name="degree1">
+        <label for="degree1"> Orta</label><br>
+        <input type="checkbox" id="degree2" name="degree2">
+        <label for="degree2">Bakalavr</label><br>
+        <input type="checkbox" id="degree3" name="degree3">
+        <label for="degree3">Magistr</label><br>
+        <input type="checkbox" id="degree4" name="degree4">
+        <label for="degree4">Doktor</label><br><br>
+
+        <label for="yas">Yaş:</label><br>
+        <input type="text"  id="age" name="age" maxlength="3" size="4"><br>
+        <label for="boy">Boy:</label><br>
+        <input type="text"  id="boy" name="boy" maxlength="4" size="4"><br>
+        <label for="ceki">Çəki:</label><br>
+        <input type="text"  id="ceki" name="ceki"  size="4"><br>
+        
+        <input class="button" type="submit" value="Təsdiqlə">
+
+
+
+
+    </form>
+    
+</body>
+</html>
